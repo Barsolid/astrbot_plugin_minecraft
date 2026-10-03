@@ -1,0 +1,24 @@
+{
+  "api_base": {
+    "description": "mineflayer 控制 API 地址",
+    "type": "string",
+    "default": "http://127.0.0.1:3001",
+    "hint": "对应 D:\\bot\\minecraft_bot\\bot.mjs 启动的服务，默认端口 3001"
+  },
+  "enable_llm_tools": {
+    "description": "启用自然语言控制（LLM 工具）",
+    "type": "bool",
+    "default": true
+  },
+  "forward_game_chat": {
+    "description": "把游戏内聊天转发到 QQ",
+    "type": "bool",
+    "default": true
+  },
+  "owner_umo": {
+    "description": "游戏聊天转发的目标会话 (unified_msg_origin)",
+    "type": "string",
+    "default": "",
+    "hint": "留空则自动使用最近一次和机器人对话的会话"
+  }
+}

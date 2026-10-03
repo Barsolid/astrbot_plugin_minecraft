@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>柚叶 · 我的世界身份</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>柚叶 · 我的世界身份</h1>
+      <p class="hint">
+        修改后会写入 <code>D:\bot\minecraft_bot\config.json</code> 并让机器人重新连接。
+      </p>
+      <div class="grid">
+        <label>游戏名（游戏内 ID）
+          <input id="username" placeholder="柚叶Bot" />
+        </label>
+        <label>主人玩家名（跟随/过来的默认目标）
+          <input id="owner" placeholder="你的游戏名" />
+        </label>
+        <label>皮肤用户名（仅服务器装了皮肤插件时生效）
+          <input id="skin_username" placeholder="默认为游戏名" />
+        </label>
+        <label>游戏版本
+          <input id="version" placeholder="1.21.6" />
+        </label>
+        <label>服务器地址
+          <input id="host" placeholder="127.0.0.1" />
+        </label>
+        <label>局域网端口
+          <input id="port" placeholder="54321" />
+        </label>
+      </div>
+      <div class="actions">
+        <button id="save">保存并重连</button>
+        <button id="refresh" class="ghost">刷新状态</button>
+      </div>
+      <pre id="out"></pre>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

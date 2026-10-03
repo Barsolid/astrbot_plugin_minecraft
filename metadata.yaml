@@ -1,0 +1,10 @@
+name: astrbot_plugin_minecraft
+display_name: 我的世界陪玩 · Minecraft
+short_desc: 让柚叶进入 Minecraft（Java版）陪你玩：聊天、跟随、挖矿、放置等。
+desc: 通过本地 mineflayer 机器人控制 API，让机器人陪玩我的世界：查看状态、跟随/前往、自动挖矿、放置方块，并把游戏内聊天转发到 QQ。
+version: v0.1.0
+author: A3uracY
+repo: https://github.com/Barsolid/astrbot_plugin_minecraft
+astrbot_version: ">=4.5.1"
+support_platforms:
+  - aiocqhttp
