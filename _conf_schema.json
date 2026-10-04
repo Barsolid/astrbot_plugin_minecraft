@@ -15,6 +15,24 @@
     "type": "bool",
     "default": true
   },
+  "ingame_chat": {
+    "description": "游戏内自由对话（本地 LLM 回复）",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后，玩家在游戏里提到机器人名字（或主人说话）时会由本地模型生成回复；动作类词句（过来/跟随等）仍由机器人自身处理"
+  },
+  "persona_id": {
+    "description": "游戏内对话使用的人格 ID",
+    "type": "string",
+    "default": "柚叶",
+    "hint": "对应 AstrBot 里的人格名，例如 柚叶；留空则不用人设"
+  },
+  "creative_mode": {
+    "description": "创造模式辅助",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后，放置方块前会先直接给机器人该物品（适合创造模式）"
+  },
   "owner_umo": {
     "description": "游戏聊天转发的目标会话 (unified_msg_origin)",
     "type": "string",
