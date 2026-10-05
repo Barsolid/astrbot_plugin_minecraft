@@ -1,6 +1,6 @@
 # astrbot_plugin_minecraft
 
-让「柚叶」陪你玩 **Minecraft（Java 版）**。通过本地 [mineflayer](https://github.com/PrismarineJS/mineflayer) 机器人把游戏内操作暴露为 AstrBot 的 LLM 工具，并支持把游戏内聊天转发到 QQ。
+让本地ai陪你玩 **Minecraft（Java 版）**。通过本地 [mineflayer](https://github.com/PrismarineJS/mineflayer) 机器人把游戏内操作暴露为 AstrBot 的 LLM 工具，并支持把游戏内聊天转发到 QQ。
 
 ## 功能
 
